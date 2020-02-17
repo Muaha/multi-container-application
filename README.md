@@ -8,7 +8,7 @@ The page also stores indexes, that have been queried before.
 ## Architecture
 ![Architecture](images/architecture.png)
 
-###Docker architecture:
+### Docker architecture:
 There will be multiple containers:
 - postgres
 - redis
@@ -17,12 +17,12 @@ There will be multiple containers:
     - specify volumes
     - specify env variables (looking at `./server/keys.js`, there are some variables, that need to be passed in to the container!)
     
-###Servers and Routing
+### Servers and Routing
 ![Routing](images/routing.png)
 <br>
-####Dev
+#### Dev
 ![port routing in development](images/port_routing.png)
-####Prod
+#### Prod
 ![Routing](images/prod-port-routing.png)
 <br>
 To enable this routing, we need to configure Nginx. This will be done, by a file called `default.conf`.
@@ -33,5 +33,5 @@ Please note:
 "api" is the name of the Express Server, but "client" is the name of the React Server.
 In config, both do use same key word "server". 
 
-###CI-Deployment Workflow
+### CI-Deployment Workflow
 ![CI deployment workflow](images/CI-Workflow.png)
