@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="430badb9-cd67-4527-9c23-464c9a1b1c1b" name="Default Changelist" comment="" />
+    <list default="true" id="430badb9-cd67-4527-9c23-464c9a1b1c1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
+    <list id="38ebf16a-5946-492d-a261-6371905dc32b" name="NoCommit" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xna9znuyJikOXfLFxAMXy5OkpI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -16,6 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -34,15 +46,42 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="430badb9-cd67-4527-9c23-464c9a1b1c1b" name="Default Changelist" comment="" />
+      <changelist id="38ebf16a-5946-492d-a261-6371905dc32b" name="NoCommit" comment="" />
       <created>1581684164954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581684164954</updated>
-      <workItem from="1581684166908" duration="14098000" />
+      <workItem from="1581684166908" duration="15851000" />
     </task>
+    <task id="LOCAL-00001" summary="fix titles">
+      <created>1581948237332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581948237332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix titles" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2853" y="203" key="CommitChangelistDialog2" timestamp="1581950130952">
+      <screen x="1920" y="-79" width="2560" height="1417" />
+    </state>
+    <state x="2853" y="203" key="CommitChangelistDialog2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581950130952" />
+    <state x="3133" y="507" key="VCS.EditChangelistDialog" timestamp="1581948244603">
+      <screen x="1920" y="-79" width="2560" height="1417" />
+    </state>
+    <state x="3133" y="507" key="VCS.EditChangelistDialog/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581948244603" />
+    <state x="2895" y="371" key="Vcs.Push.Dialog.v2" timestamp="1581950133297">
+      <screen x="1920" y="-79" width="2560" height="1417" />
+    </state>
+    <state x="2895" y="371" key="Vcs.Push.Dialog.v2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581950133297" />
   </component>
 </project>
