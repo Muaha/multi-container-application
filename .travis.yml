@@ -14,7 +14,7 @@ after_success:
   - docker build -t mda1234/multi-server ./server
   - docker build -t mda1234/multi-worker ./worker
 # log in to the docker CLI
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - echo $DOCKER_PASSWORD | docker login --username $DOCKER_ID --password-stdin
 # take images and push to dockerhub
   - docker push mda1234/multi-client
   - docker push mda1234/multi-nginx
