@@ -35,3 +35,27 @@ In config, both do use same key word "server".
 
 ### CI-Deployment Workflow
 ![CI deployment workflow](images/CI-Workflow.png)
+<br>
+Attention: when performing an automated login against docker: PW should not contain special characters like: "! ? & ;"
+
+#### docker-compose vs Dockerrun.aws.json
+![compose vs aws](images/compose-vs-aws.png)
+<br>
+**compose:**
+<br>
+In compose, we build images on our own.
+<br>
+__aws:__
+<br>
+In aws, we pull images from [hub.docker.com](hub.docker.com)
+When having multiple services, aws will use another service, to define tasks for each container.
+This service is called *ECS*. When researching properties for aws-description, look [here](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html).
+<br>
+The name of the file, which describes aws multi container behaviour is `Dockerrun.aws.json`:
+<br>
+Some notes:
+- at least one container must be flagged with essential
+- according to docker-compose, we need to define links between different containers
+    - the name inside a link references the **name-tag**
+- it makes sense to validate json file, before deploying it to aws 
+![aws-task-definitions](images/aws-task-definitions.png)
