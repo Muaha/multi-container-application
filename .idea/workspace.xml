@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430badb9-cd67-4527-9c23-464c9a1b1c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
-    <list id="38ebf16a-5946-492d-a261-6371905dc32b" name="NoCommit" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aws-task-definitions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/compose-vs-aws.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
+    <list id="38ebf16a-5946-492d-a261-6371905dc32b" name="NoCommit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,28 +61,75 @@
       <option name="project" value="LOCAL" />
       <updated>1581948237332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea config stuff">
+      <created>1581950880988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581950880988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="try to enable docker push">
+      <created>1581951702310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581951702310</updated>
+    </task>
+    <task id="LOCAL-00004" summary="try to enable docker push">
+      <created>1582017514224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582017514224</updated>
+    </task>
+    <task id="LOCAL-00005" summary="try to enable docker push">
+      <created>1582018395830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582018395830</updated>
+    </task>
+    <task id="LOCAL-00006" summary="try to enable docker push">
+      <created>1582019144894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582019144894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix titles" />
+    <MESSAGE value="try to enable docker push" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to enable docker push" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2853" y="203" key="CommitChangelistDialog2" timestamp="1581950130952">
+    <state x="2853" y="203" key="CommitChangelistDialog2" timestamp="1582027919711">
       <screen x="1920" y="-79" width="2560" height="1417" />
     </state>
-    <state x="2853" y="203" key="CommitChangelistDialog2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581950130952" />
+    <state x="2853" y="203" key="CommitChangelistDialog2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1582027919711" />
     <state x="3133" y="507" key="VCS.EditChangelistDialog" timestamp="1581948244603">
       <screen x="1920" y="-79" width="2560" height="1417" />
     </state>
     <state x="3133" y="507" key="VCS.EditChangelistDialog/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581948244603" />
-    <state x="2895" y="371" key="Vcs.Push.Dialog.v2" timestamp="1581950133297">
+    <state x="2895" y="371" key="Vcs.Push.Dialog.v2" timestamp="1582019148496">
       <screen x="1920" y="-79" width="2560" height="1417" />
     </state>
-    <state x="2895" y="371" key="Vcs.Push.Dialog.v2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1581950133297" />
+    <state x="2895" y="371" key="Vcs.Push.Dialog.v2/25.23.1895.1177/1920.-79.2560.1417/4480.700.1680.1027@1920.-79.2560.1417" timestamp="1582019148496" />
   </component>
 </project>
